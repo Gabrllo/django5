@@ -4,7 +4,7 @@ from django.db import models
 class Car(models.Model):
     make = models.CharField(max_length=50)
     carmodel = models.CharField(max_length=50)
-    year = models.CharField(max_length=50)
+    year = models.CharField(max_length=35)
     location = models.CharField(max_length=50)
     status = models.CharField(max_length=50)
     booked_by = models.CharField(max_length=50)
