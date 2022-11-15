@@ -20,6 +20,8 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
+WORKDIR /mysite
+
 RUN python manage.py makemigrations mysite
 RUN python manage.py migrate
 
