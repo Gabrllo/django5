@@ -6,7 +6,7 @@ class Car(models.Model):
     carmodel = models.CharField(max_length=50)
     year = models.CharField(max_length=50)
     location = models.CharField(max_length=50)
-    status = models.CharField(max_length=45)
+    status = models.CharField(max_length=40)
     booked_by = models.CharField(max_length=50)
 
     def __str__(self):
