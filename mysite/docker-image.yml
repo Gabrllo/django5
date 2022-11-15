@@ -33,4 +33,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/python-django:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/django-docker:latest
